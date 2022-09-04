@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "decoration_slider_kitchen_images",
+  "info": {
+    "singularName": "decoration-slider-kitchen-image",
+    "pluralName": "decoration-slider-kitchen-images",
+    "displayName": "Decoration slider kitchen image"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "descrition": {
+      "type": "text"
+    }
+  }
+}
