@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "decoration_slider_kitchen_images",
+  "collectionName": "decoration_slider_childrensrooms_images",
   "info": {
-    "singularName": "decoration-slider-kitchen-image",
-    "pluralName": "decoration-slider-kitchen-images",
-    "displayName": "Decoration slider kitchen image",
+    "singularName": "decoration-slider-childrensrooms-image",
+    "pluralName": "decoration-slider-childrensrooms-images",
+    "displayName": "Decoration slider childrensrooms image",
     "description": ""
   },
   "options": {

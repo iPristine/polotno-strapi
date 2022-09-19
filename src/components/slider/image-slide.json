@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_slider_image_slides",
+  "info": {
+    "displayName": "Image Slide",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "private": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

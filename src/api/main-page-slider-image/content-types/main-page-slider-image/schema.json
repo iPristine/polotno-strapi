@@ -12,25 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "image": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "description": {
-      "type": "text"
-    },
-    "name": {
-      "type": "string"
-    },
-    "url": {
-      "type": "string"
+    "slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slider.image-slide"
     }
   }
 }
