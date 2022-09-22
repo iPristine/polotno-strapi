@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_basic_card_projects",
+  "info": {
+    "displayName": "CardProject"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "timeWork": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imgUrl": {
+      "type": "string",
+      "required": true
+    },
+    "exampleLink": {
+      "type": "string"
+    },
+    "details": {
+      "type": "text"
+    }
+  }
+}
