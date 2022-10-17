@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "interior_decoration_update_interiors",
+  "info": {
+    "singularName": "interior-decoration-update-interior",
+    "pluralName": "interior-decoration-update-interiors",
+    "displayName": "interior decoration update interior"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "examples": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::interior-decoration-update-interior-example.interior-decoration-update-interior-example"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
