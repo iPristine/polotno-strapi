@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "interior_decoration_update_interior_examples",
+  "info": {
+    "singularName": "interior-decoration-update-interior-example",
+    "pluralName": "interior-decoration-update-interior-examples",
+    "displayName": "interior decoration update interior example"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "card": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basic.card-decor"
+    }
+  }
+}
