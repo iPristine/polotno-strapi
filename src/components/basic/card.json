@@ -6,40 +6,16 @@
   },
   "options": {},
   "attributes": {
-    "exampleLink": {
-      "type": "text"
-    },
-    "urlImageExample": {
-      "type": "string",
-      "required": true
-    },
-    "imageExample": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+    "slide": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.image"
     },
     "description": {
       "type": "text"
     },
-    "urlImage": {
+    "exampleLink": {
       "type": "string"
-    },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
     }
   }
 }
