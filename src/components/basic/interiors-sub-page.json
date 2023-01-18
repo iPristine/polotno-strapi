@@ -1,7 +1,8 @@
 {
-  "collectionName": "components_basic_card_projects",
+  "collectionName": "components_basic_interiors_sub_pages",
   "info": {
-    "displayName": "CardProject",
+    "displayName": "InteriorsSubPage",
+    "icon": "angry",
     "description": ""
   },
   "options": {},
@@ -9,10 +10,7 @@
     "title": {
       "type": "string"
     },
-    "timeWork": {
-      "type": "text"
-    },
-    "image": {
+    "planImage": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -23,25 +21,27 @@
         "audios"
       ]
     },
-    "imgUrl": {
-      "type": "string",
-      "required": true
-    },
-    "exampleLink": {
+    "planImageUrl": {
       "type": "string"
     },
-    "details": {
-      "type": "text"
-    },
-    "examplePdf": {
+    "blueprintImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "blueprintImageUrl": {
+      "type": "string"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.image"
     }
   }
 }

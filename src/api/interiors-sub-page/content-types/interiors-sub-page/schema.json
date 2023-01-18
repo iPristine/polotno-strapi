@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "interiors_sub_pages",
+  "info": {
+    "singularName": "interiors-sub-page",
+    "pluralName": "interiors-sub-pages",
+    "displayName": "Interiors Sub Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basic.interiors-sub-page"
+    }
+  }
+}

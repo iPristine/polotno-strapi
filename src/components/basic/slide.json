@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_basic_slides",
+  "info": {
+    "displayName": "Slide"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basic.image"
+    }
+  }
+}
