@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "interiors_decoration_pages",
+  "info": {
+    "singularName": "interiors-decoration-page",
+    "pluralName": "interiors-decoration-pages",
+    "displayName": "Interiors-decoration-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.image"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.card"
+    }
+  }
+}

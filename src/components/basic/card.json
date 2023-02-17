@@ -1,21 +1,18 @@
 {
   "collectionName": "components_basic_cards",
   "info": {
-    "displayName": "Card",
+    "displayName": "InteriorDecorationCard",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "slide": {
+    "slides": {
       "type": "component",
       "repeatable": true,
       "component": "basic.image"
     },
-    "description": {
+    "title": {
       "type": "text"
-    },
-    "exampleLink": {
-      "type": "string"
     }
   }
 }

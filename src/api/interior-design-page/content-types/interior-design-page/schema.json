@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "interior_design_pages",
+  "info": {
+    "singularName": "interior-design-page",
+    "pluralName": "interior-design-pages",
+    "displayName": "Interior-design-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.image"
+    },
+    "projectCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.project-card"
+    }
+  }
+}

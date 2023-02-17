@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_basic_interior_cards",
+  "info": {
+    "displayName": "InteriorCard"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basic.image"
+    },
+    "area": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
