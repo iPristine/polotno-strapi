@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "furniture_pages",
+  "info": {
+    "singularName": "furniture-page",
+    "pluralName": "furniture-pages",
+    "displayName": "Furniture-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.image"
+    },
+    "drawings": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.image"
+    }
+  }
+}

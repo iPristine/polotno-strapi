@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_basic_decoration_cards",
+  "info": {
+    "displayName": "DecorationCard"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basic.image"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,10 +1,10 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "decoration_pages",
   "info": {
     "singularName": "decoration-page",
     "pluralName": "decoration-pages",
-    "displayName": "Decoration Page",
+    "displayName": "Decoration-page",
     "description": ""
   },
   "options": {
@@ -12,22 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "imageUrl": {
-      "type": "string"
-    },
-    "image": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "title": {
-      "type": "string"
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.decoration-card"
     }
   }
 }
