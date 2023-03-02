@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_basic_drawing_cards",
+  "info": {
+    "displayName": "DrawingCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "details": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.text"
+    },
+    "drawing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basic.image"
+    }
+  }
+}
