@@ -4,7 +4,8 @@
   "info": {
     "singularName": "furniture-page",
     "pluralName": "furniture-pages",
-    "displayName": "Furniture-page"
+    "displayName": "Furniture-page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,10 +17,10 @@
       "repeatable": true,
       "component": "basic.image"
     },
-    "drawings": {
+    "drawingCards": {
       "type": "component",
       "repeatable": true,
-      "component": "basic.image"
+      "component": "basic.drawing-card"
     }
   }
 }
